@@ -1,3 +1,12 @@
+"""
+Implement the find_middle_node method for the LinkedList class.
+
+The find_middle_node method should return the middle node in the linked list WITHOUT using the length 
+attribute.
+
+If the linked list has an even number of nodes, return the first node of the second half of the list.
+"""
+
 class Node:
     def __init__(self, value):
         self.value = value
